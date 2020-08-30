@@ -1,183 +1,427 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.0.1">
-    <title>Khanh An VO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>An Võ's Blog</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- ------------ AOS Library ------------------------- -->
-    <link rel="stylesheet" href="./css/aos.css">
+
+
     <!-- --------- Owl-Carousel ------------------->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Khanh An VO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Võ Khánh An</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Trang chủ</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Achievement</a>
+                    <li class="nav-link">
+                        <a href="#">Bài viết hay</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+                    <li class="nav-link">
+                        <a href="./porfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Liên hệ</a>
                     </li>
                 </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
-        </nav>
-    </header>
-
-    <main role="main">
-
-        <div class="container marketing">
-
-            <div data-aos="fade-right" class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">I'm Khanh An Vo and <span class="text-muted">I major in Computer Science</span></h2>
-                    <p class="lead">I am currently studying at the Department of Artificial Intelligence, Faculty of Computer Science, University of Information Technology (UIT), VNU-HCM, Vietnam. I was originally a student specializing in Informatics at Phan Ngoc Hien
-                        High School for Gifted Student. In 2018 and 2019, I have received certificates of taking the Vietnam National Olympiad in Informatics(VOI). Since 2017, I have gained a lot of IT achievements in provincial, regional and national
-                        competitions.
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-head" src="./assets/portfolio/image1.jpg" alt="Avatar" width="500" height="500">
-                    <!-- <svg class=" bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
-                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
-                </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-
-            <hr class="featurette-divider ">
-
-            <div data-aos="zoom-in-up" class="col-md-7 ">
-                <h2 class="featurette-heading ">Reasearch Topics</h2>
-                <p class="lead ">Below are some of the topics I'm currently doing in my research or doing my own study: </p>
-                <ul class="lead ">
-                    <li>Artificial Intelligence</li>
-                    <li>Data Science</li>
-                    <li>Web Development</li>
-                </ul>
-            </div>
-
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider ">
-
-            <div data-aos="zoom-out-up" class="row featurette ">
-                <div class="col-md-7 ">
-                    <h2 class="featurette-heading ">Excellence in <span class="text-muted ">data structure and algorithm </span></h2>
-                    <p class="lead ">As an IT student, I had the opportunity to study data structures and algorithms when I was 15 years old. I have participated in and achieved a lot of achievements in IT competitions such as VOI, National Youth IT Exam, April 30 olympiad,
-                        Mekong Delta Summer Camp, National Creative and Technological Camp, ...</p>
-                </div>
-                <div class="col-md-5 ">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-body" src="./assets/portfolio/image2.jpg" alt="Avatar" width="500px" height="500">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
-                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
-                </div>
-            </div>
-
-            <hr class="featurette-divider ">
-
-            <div data-aos="zoom-out-down" class="row featurette ">
-                <div class="col-md-7 order-md-2 ">
-                    <h2 class="featurette-heading ">Works at<span class="text-muted "> the Youth Union</span></h2>
-                    <p class="lead ">I learned a lot of things like leadership skills, teamwork, human resource management, content writing, ... when working at Youth Union. This is a memorable time in my student life</p>
-                </div>
-                <div class="col-md-5 order-md-1 ">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-body" src="./assets/portfolio/image3.jpg" alt="Avatar" width="500px" height="500">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
-                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
-                </div>
-            </div>
-
-            <hr class="featurette-divider ">
-
-            <div data-aos="fade-left" class="row featurette ">
-                <div class="col-md-7 ">
-                    <h2 class="featurette-heading ">I am also <span class="text-muted ">a Content Writer</span></h2>
-                    <p class="lead ">Writing is also a passion for me. When I write, I feel happy just like when I code. Therefore, I have written the content for many organizations such as Youth Union, Students' Association, Admissions Advisory, CrossTech Team, ...
-                    </p>
-                </div>
-                <div class="col-md-5 ">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-body" src="./assets/portfolio/image4.jpg" alt="Avatar" width="500px" height="500">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
-                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
-                </div>
-            </div>
-
-            <hr class="featurette-divider ">
-
-            <!-- /END THE FEATURETTES -->
-
         </div>
-        <!-- /.container -->
+    </nav>
 
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
-        <!-- FOOTER -->
-        <footer class="container ">
-            <div class="move-up float-right">
-                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Đây là Blog về</h3>
+                <h1>Khoa học, Công nghệ & Thể thao</h1>
+                <button class="btn">Khám phá</button>
             </div>
-            <!-- <p>&copy; 2017-2020 Company, Inc. &middot; <a href="# ">Privacy</a> &middot; <a href="# ">Terms</a></p> -->
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github-square"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
-            <a href="#"><i class="fas fa-phone"></i></a>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Henderson muốn được bắt chính tại Man Utd</h3>
+                                <button class="btn btn-blog">Thể thao</button>
+                                <span>34 phút trước</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Python là gì? Tại sao nên chọn Python?</h3>
+                                <button class="btn btn-blog">Công nghệ</button>
+                                <span>5 tiếng trước</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Các triệu chứng Covid và cách phòng tránh COVID-19</h3>
+                                <button class="btn btn-blog">Khoa học</button>
+                                <span>3 ngày trước</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
+                            <div class="blog-title">
+                                <a href="./detail.html">
+                                    <h3>Vì sao JavaScript là ngôn ngữ lập trình quyến rũ</h3>
+                                </a>
+
+                                <button class="btn btn-blog">Công nghệ</button>
+                                <span>2 tuần trước</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------- Carousel ---------------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <!-- <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;An Võ</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;25/8/2020</span>
+                                <span>6 bình luận</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="./detail.html">Vì sao JavaScript là ngôn ngữ lập trình quyến rũ?</a>
+                            <p>JavaScript là một trong bộ ba thần thánh ngôn ngữ lập trình cho web developer và theo ý kiến của tôi, là ngôn ngữ quyến rũ nhất. Nó cũng có nhu cầu rất cao, và là một lựa chọn vô cùng tuyệt vời cho các developer muốn bổ sung
+                                thêm skill vào CV của mình.
+                            </p>
+                            <a href="./detail.html"><button class="btn post-btn">Đọc thêm &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;An Võ</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;12/11/2019</span>
+                                <span>7 bình luận</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Python là gì? Tại sao nên chọn Python?
+                            </a>
+                            <p>Python là ngôn ngữ lập trình hướng đối tượng, cấp cao, mạnh mẽ, được tạo ra bởi Guido van Rossum. Nó dễ dàng để tìm hiểu và đang nổi lên như một trong những ngôn ngữ lập trình nhập môn tốt nhất cho người lần đầu tiếp xúc với
+                                ngôn ngữ lập trình. Python hoàn toàn tạo kiểu động và sử dụng cơ chế cấp phát bộ nhớ tự động.
+                            </p>
+                            <button class="btn post-btn">Đọc thêm &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog3.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;An Võ</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;24/1/2019</span>
+                                <span>4 bình luận</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Henderson muốn được bắt chính tại Man Utd?
+                            </a>
+                            <p>Thủ môn thuộc sở hữu Man Utd Dean Henderson được cho là bày tỏ nguyện vọng bắt chính hoặc ra đi với HLV Ole Gunnar Solskjaer.
+                            </p>
+                            <button class="btn post-btn">Đọc thêm &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;An Võ</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;21/1/2020</span>
+                                <span>14 bình luận</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Các triệu chứng Covid và cách phòng tránh COVID-19</a>
+                            <p>Biểu hiện các triệu chứng lâm sàng chính của COVID-19 ngay từ đầu đã được xác định như sốt, ho, tức ngực, khó thở... nhưng đến nay Trung Quốc, nơi khởi nguồn của đại dịch đã có công bố về người nhiễm virus SARS-CoV-2 nhưng
+                                không có triệu chứng.
+                            </p>
+                            <button class="btn post-btn">Đọc thêm &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div> -->
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Thể loại</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">Công nghệ</a>
+                                <span>(15)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Thể thao</a>
+                                <span>(22)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Khoa học</a>
+                                <span>(04)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Linh tinh</a>
+                                <span>(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Cuộc sống</a>
+                                <span>(09)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Bài viết phổ biến</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;25/8/2020</span>
+                                    <span>6 bình luận</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="./detail.html">Vì sao JavaScript là ngôn ngữ lập trình quyến rũ?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;25/12/2018</span>
+                                    <span>9 bình luận</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Thử sức học Machine Learning trong vòng 1 tuần</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;12/3/2020</span>
+                                    <span>12 bình luận</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Tự học Machine Learning nên bắt đầu từ đâu?</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;12/2/2020</span>
+                                    <span>6 bình luận</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Kinh nghiệm phỏng vấn - Góc nhìn từ người phỏng vấn</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;4/1/2020</span>
+                                    <span>3 bình luận</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">PyTorch là gì?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Nhận thông báo cho bài mới</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Nhập Email">
+                            <button class="btn form-btn">Đăng ký</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Tags phổ biến</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">khoahoc</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">congnghe</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">cuocsong</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">dulich</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">yeu</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">thoitrang</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">nghethuat</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
     </main>
-    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script>
-        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js "><\/script>')
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>Liên hệ</h2>
+                <p>Trường Đại học Công nghệ Thông tin, ĐHQG - HCM</p>
+                <p>Khu phố 6, phường Linh Trung, quận Thủ Đức, TP.HCM</p>
+            </div>
+            <div class="maps" data-aos="fade-right" data-aos-delay="200">
+                <h2>Bản đồ</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2324288146738!2d106.80161941406926!3d10.869918392258086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2sUniversity%20of%20Information%20Technology%20VNU-HCM!5e0!3m2!1sen!2s!4v1596707522258!5m2!1sen!2s"
+                    width="230" height="120" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Nhận thông báo</h2>
+                <p>Hãy để lại email của bạn để nhận được thông báo khi có bài viết mới</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Hãy follow mình trên</h2>
+                <p></p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2020 All rights reserved | made by
+                <a href="https://www.facebook.com/vokhanhan25" target="_black">Võ Khánh An</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous">
     </script>
-    <script src="../assets/dist/js/bootstrap.bundle.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
 
     <!-- Jquery Library file -->
     <script src="./js/Jquery3.4.1.min.js"></script>
 
-    <!-- ------------ AOS js Library  ------------------------- -->
-    <script src="./js/aos.js"></script>
-
     <!-- --------- Owl-Carousel js ------------------->
     <script src="./js/owl.carousel.min.js"></script>
 
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
+
+    <script src="./js/ajax.js"></script>
+    <script>
+        $(document).ready(function() {
+            getData();
+        });
+    </script>
 </body>
 
 </html>

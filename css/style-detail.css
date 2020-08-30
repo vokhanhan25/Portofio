@@ -575,3 +575,7 @@ footer.footer .move-up span:hover {
 
 
 /*        x      Viewport less then or equal to 520px       x     */
+
+.detail-title {
+    text-align: center
+}
